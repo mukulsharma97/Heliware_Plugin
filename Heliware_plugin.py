@@ -263,7 +263,7 @@ class Heliware:
         if not os.path.exists(dir_path+'/output/scutning'):
             os.makedirs(dir_path+'/output/scutning')
         else:
-            fpath = 'C:/Heliware_plugin/scutning'
+            fpath = dir_path+'/output/scutning'
             for ofs in os.listdir(fpath):
                 os.remove(os.path.join(fpath,ofs))
         polygonlist,fl,pl,ll= [],[],[],[]

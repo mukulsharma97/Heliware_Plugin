@@ -12,8 +12,8 @@ email=explore@heliware.co.in
 
 about=This plugin exports  QGIS data directly onto the Heliware for further analysis and free 3D map creation purposed after signing free account on Heliware. Its also provide vector data quality control feature for qgis.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/mukulsharma97/Heliware_Plugin.git
+repository=https://github.com/mukulsharma97/Heliware_Plugin.git
 # End of mandatory metadata
 
 # Recommended items:
@@ -25,7 +25,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=python
 
-homepage=http://homepage
+homepage=https://heliware.co.in
 category=Vector
 icon=heli_icon.png
 # experimental flag
@@ -38,6 +38,7 @@ deprecated=False
 # (or upgraded) can be specified.
 # Check the documentation for more information.
 # plugin_dependencies=
+pip_dependencies=haversine==2.5.1,shapely==1.7.1
 
 Category of the plugin: Raster, Vector, Database or Web
 # category=
